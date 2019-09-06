@@ -30,13 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+It is a representation of the html elements on the page. A tree structure
+of nodes that can be manipulated.
+
 2. What is an event?
+
+Interactions with a website on a page that can be detected by the browser known as a trigger. .
+
+
 
 3. What is an event listener?
 
+an element can listen for events, and when an event is triggered a callback function is invoked.
+
 4. Why would we convert a NodeList into an Array?
 
+so we can iterate over it with forEach.
+
 5. What is a component?
+
+A component is a creation of an element that classes can be added to, and
+components could be appended to. This allows us to reuse the function to add more to the dom. So with DRY it is reuseable pieces of code that we can use to build elements that share functionality and styling.
 
 ### Git Set up
 
